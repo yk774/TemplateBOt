@@ -225,7 +225,7 @@ public class Main {
         static public void recommendRandomBook(Book[] selection) {
                 int x = (int) (Math.random() * selection.length);
                 System.out.println("We recommend " + selection[x].getTitle() + " by " + selection[x].getAuthor());
-        }yy7
+        }
 
         static public void recommendGenreBook(Book[] selection, String genre) {
                 String redText = "\u001B[31m";
